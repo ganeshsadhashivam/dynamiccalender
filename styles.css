@@ -64,10 +64,38 @@ header .icons span:last-child {
   text-align: center;
 }
 
+.calender .days {
+  margin-bottom: 20px;
+}
+
 .calender .weeks li {
   font-weight: 500;
 }
+/*
+
+.calender .days li {
+  margin-top: 30px;
+  cursor: pointer;
+}
+*/
 
 .calender ul li {
+  position: relative;
   width: calc((100% / 7));
 }
+
+/*
+
+.calender .days li::before {
+  position: absolute;
+  content: "";
+  height: 40px;
+  width: 40px;
+  background: #f2f2f2;
+ border-radius: 50%; 
+  top: 50%;
+  left: 50%;
+  transform: translate((-50%, -50%)); 
+} 
+
+*/
